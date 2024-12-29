@@ -14,6 +14,8 @@
 		43ED3C0D2D21562600DCF9D5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ED3C0C2D21562600DCF9D5 /* Event.swift */; };
 		43ED3C0F2D21568800DCF9D5 /* WorkoutDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ED3C0E2D21568800DCF9D5 /* WorkoutDataRepository.swift */; };
 		43ED3C112D2156A600DCF9D5 /* WorkoutSessionUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ED3C102D2156A600DCF9D5 /* WorkoutSessionUseCase.swift */; };
+		43ED3C132D2156C700DCF9D5 /* WorkoutTimerUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ED3C122D2156C700DCF9D5 /* WorkoutTimerUseCase.swift */; };
+		43ED3C152D21570E00DCF9D5 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ED3C142D21570E00DCF9D5 /* WorkoutViewModel.swift */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 		43ED3C0C2D21562600DCF9D5 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		43ED3C0E2D21568800DCF9D5 /* WorkoutDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataRepository.swift; sourceTree = "<group>"; };
 		43ED3C102D2156A600DCF9D5 /* WorkoutSessionUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionUseCase.swift; sourceTree = "<group>"; };
+		43ED3C122D2156C700DCF9D5 /* WorkoutTimerUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimerUseCase.swift; sourceTree = "<group>"; };
+		43ED3C142D21570E00DCF9D5 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 			children = (
 				43ED3C0A2D2155FC00DCF9D5 /* State.swift */,
 				43ED3C0C2D21562600DCF9D5 /* Event.swift */,
+				43ED3C142D21570E00DCF9D5 /* WorkoutViewModel.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				43ED3C102D2156A600DCF9D5 /* WorkoutSessionUseCase.swift */,
+				43ED3C122D2156C700DCF9D5 /* WorkoutTimerUseCase.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -304,10 +310,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43ED3C152D21570E00DCF9D5 /* WorkoutViewModel.swift in Sources */,
 				43ED3C0D2D21562600DCF9D5 /* Event.swift in Sources */,
 				43ED3C0F2D21568800DCF9D5 /* WorkoutDataRepository.swift in Sources */,
 				43ED3C112D2156A600DCF9D5 /* WorkoutSessionUseCase.swift in Sources */,
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
+				43ED3C132D2156C700DCF9D5 /* WorkoutTimerUseCase.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
 				43ED3C0B2D2155FC00DCF9D5 /* State.swift in Sources */,
 			);
